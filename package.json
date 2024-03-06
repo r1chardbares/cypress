@@ -1,0 +1,22 @@
+{
+  "name": "cypress-klappka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run cypress open",
+    "start:ci": "yarn run cypress run --browser chrome --headless",
+    "prettier:fix": "prettier --write \"./cypress/**/*.ts\""
+  },
+  "devDependencies": {
+    "cypress": "13.6.6",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-fill-command": "^1.0.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "parse-multipart-data": "1.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

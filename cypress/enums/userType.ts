@@ -1,0 +1,5 @@
+export enum UserType {
+  PREREGISTERED = "PREREGISTERED",
+  NOT_CONFIRMED = "NOT_CONFIRMED",
+  ACTIVE = "ACTIVE",
+}
